@@ -23,6 +23,9 @@
     .container .profile-data .event ul li a{
         flex-direction: column;
     }
+    .container .profile-data .event ul li a .commit-event{
+        text-align: center;
+    }
 
 }
 @media(max-width: 425px){
