@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/resposivo.css">
+    <link rel="stylesheet" href="src/css/scrollbsr.css">
+
+    <title>GitHub Api</title>
+</head>
+<body>
+    <main>
+        <div class="btn-github">
+        <a href="https://github.com/brunonunescunha" target="_blank"><i class="devicon-github-original"></i></a>
+    </div>
+
+
+        <section class="container">
+            <header>
+                <h2>Buscar Usuário do GitHub</h2>
+                <div class="input-box">
+                <input type="text" required="required" id="input-search">
+                <span>nome do usuário </span>
+                <p class="erro">*Preencha o campo com o nome do usuário do GitHub</p>
+            </div>
+
+                <input type="button" value="Buscar" id="btn-search">
+            </header>
+            
+            <div class="profile-data"></div>
+        </section>
+
+        <script type="module" src="src/js/index.js"></script>
+    </main>
+</body>
+</html>
